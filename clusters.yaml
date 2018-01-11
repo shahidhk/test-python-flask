@@ -1,7 +1,14 @@
 - alias: hasura
   config:
     configmap: controller-conf
+    namespace: bombardier20-hasura
+  data: null
+  kubeContext: bombardier20
+  name: bombardier20
+- alias: appoos
+  config:
+    configmap: controller-conf
     namespace: hasura
   data: null
-  kubeContext: dingily18
-  name: dingily18
+  kubeContext: chickweed92
+  name: chickweed92
