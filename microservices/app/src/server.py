@@ -11,3 +11,9 @@ def home():
 @app.route("/json")
 def json_message():
     return jsonify(message="Hello World")
+
+# add your code here
+@app.route("/appoos")
+def appoos_function():
+    return jsonify(hello="from appoos")
+
