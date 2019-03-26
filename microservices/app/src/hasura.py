@@ -3,7 +3,7 @@ import os
 import sys
 import requests
 from flask import Blueprint, jsonify
-
+# bugfix
 PRODUCTION_ENV = os.environ.get("PRODUCTION")
 CLUSTER_NAME = os.environ.get("CLUSTER_NAME")
 if CLUSTER_NAME is None:
