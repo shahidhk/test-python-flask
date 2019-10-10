@@ -13,7 +13,7 @@ Boilerplate Hasura project with [Flask](http://flask.pocoo.org/) microservice.
 ### Quickstart
 
 ```bash
-# Quickstart from this boilerplate 
+# Quickstart from this boilerplate.
 $ hasura quickstart hello-python-flask
 ```
 
